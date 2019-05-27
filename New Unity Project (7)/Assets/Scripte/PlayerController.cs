@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private float jumpForce;
-
+    
     //상태 변수
     private bool isRun = false;
     private bool isWalk = false;
@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody myRigid; //플레이어 몸체
     private Animator myAnim;
     private CapsuleCollider capsuleCollider;
+
+    public string bulletName = "Bullet";
 
     // Start is called before the first frame update
     void Start()
@@ -40,13 +42,25 @@ public class PlayerController : MonoBehaviour
         IsGround();
         TryJump();
         TryRun(); //이동 상태 체크
-     //   Moving();
-        Move();        
+     // Moving();
+        Move();
+        Shoot();    
     }
 
     void FixedUpdate()
     {
         MoveCheck();
+    }
+
+    void Shoot()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            GameObject bullet = ObjectPool.Instance.PopFromPool(bulletName);
+            bullet.transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+            bullet.transform.rotation = transform.rotation;      
+            bullet.SetActive(true);
+        }
     }
 
     private void IsGround()
