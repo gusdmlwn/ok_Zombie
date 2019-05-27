@@ -14,6 +14,9 @@ public class HandController : MonoBehaviour
 
     private RaycastHit hitInfo;
 
+    public string bulletName = "Bullet";
+    public Transform spwaner;
+
     // Update is called once per frame
     void Update()
     {
@@ -28,9 +31,7 @@ public class HandController : MonoBehaviour
             if(!isAttack)
             {
                StartCoroutine(AttackCoroutine());
-            }
-
-           
+            }           
         }
     }
 
@@ -38,6 +39,11 @@ public class HandController : MonoBehaviour
     {
         isAttack = true;
         currentHand.anim.SetTrigger("Attack");
+        
+        GameObject bullet = ObjectPool.Instance.PopFromPool(bulletName);
+        bullet.transform.position = spwaner.transform.position;
+        bullet.transform.rotation = spwaner.transform.rotation;
+        bullet.SetActive(true);
 
         yield return new WaitForSeconds(currentHand.attackDelayA);
         isSwing = true;
