@@ -8,13 +8,8 @@ public class BulletMove : MonoBehaviour
     public float moveSpeed = 10f;
     public float lifeTime = 3f;
     public float _elapsedTime = 0f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
+  
     // Update is called once per frame
     void Update()
     {
