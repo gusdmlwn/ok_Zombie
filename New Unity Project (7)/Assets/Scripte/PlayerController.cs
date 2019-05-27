@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour
     private Animator myAnim;
     private CapsuleCollider capsuleCollider;
 
-    public string bulletName = "Bullet";
+    //public string bulletName = "Bullet";
+   // public Transform spwaner;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +45,7 @@ public class PlayerController : MonoBehaviour
         TryRun(); //이동 상태 체크
      // Moving();
         Move();
-        Shoot();    
+       // Shoot();    
     }
 
     void FixedUpdate()
@@ -52,16 +53,17 @@ public class PlayerController : MonoBehaviour
         MoveCheck();
     }
 
-    void Shoot()
-    {
-        if (Input.GetButton("Fire1"))
-        {
-            GameObject bullet = ObjectPool.Instance.PopFromPool(bulletName);
-            bullet.transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
-            bullet.transform.rotation = transform.rotation;      
-            bullet.SetActive(true);
-        }
-    }
+    //void Shoot()
+    //{
+    //    if (Input.GetButton("Fire1"))
+    //    {
+    //        myAnim.SetTrigger("Attack");
+    //        GameObject bullet = ObjectPool.Instance.PopFromPool(bulletName);
+    //        bullet.transform.position = spwaner.transform.position;
+    //        bullet.transform.rotation = spwaner.transform.rotation;      
+    //        bullet.SetActive(true);
+    //    }
+    //}
 
     private void IsGround()
     {
