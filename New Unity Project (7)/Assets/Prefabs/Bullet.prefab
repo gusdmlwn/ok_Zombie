@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolItemName: Bullet
-  moveSpeed: 5
-  lifeTime: 1
+  moveSpeed: 10
+  lifeTime: 2
   _elapsedTime: 0
