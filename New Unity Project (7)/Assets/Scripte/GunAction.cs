@@ -23,7 +23,7 @@ public class GunAction : MonoBehaviour
     {
        if(Input.GetButtonDown("Action")&& isPlayerEnter)
         {
-            transform.SetParent(playerEquipPoint.transform);
+            //transform.SetParent(playerEquipPoint.transform);
             transform.localPosition = Vector3.zero;           
             transform.rotation = new Quaternion(0, 0, 0, 0);
 
