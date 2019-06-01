@@ -137,9 +137,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -618,9 +618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -740,9 +740,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
-  chaseSpeed: 4
-  StateRadius: 7
+  wanderSpeed: 0.2
+  chaseSpeed: 3
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -1185,9 +1185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -1544,9 +1544,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -1994,9 +1994,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -3790,9 +3790,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -4220,9 +4220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -4299,9 +4299,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -8055,9 +8055,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -8596,9 +8596,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -9492,9 +9492,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -9565,9 +9565,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -10200,9 +10200,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -11609,9 +11609,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -12268,9 +12268,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
-  chaseSpeed: 4
-  StateRadius: 7
+  wanderSpeed: 0.2
+  chaseSpeed: 3
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -12376,9 +12376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -14118,10 +14118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cda79646a7c08b4a89b0d32b50e11ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterState: 1
-  wanderSpeed: 1
+  monsterState: 0
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -14568,9 +14568,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -14834,9 +14834,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -15498,9 +15498,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -16203,9 +16203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -16330,12 +16330,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cda79646a7c08b4a89b0d32b50e11ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterState: 1
-  wanderSpeed: 1
+  monsterState: 0
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
-  traceDist: 8
+  traceDist: 10
   attackDist: 2
 --- !u!195 &1208452286
 NavMeshAgent:
@@ -16532,9 +16532,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -17714,9 +17714,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -18267,9 +18267,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -19893,9 +19893,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -20409,9 +20409,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -20884,9 +20884,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -22245,9 +22245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -22318,9 +22318,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -23218,9 +23218,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -23736,9 +23736,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -23860,8 +23860,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  runSpeed: 7
-  jumpForce: 4
+  runSpeed: 10
+  jumpForce: 10
 --- !u!114 &1816205988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23875,10 +23875,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handName: 
-  range: 0
+  range: 2
   damage: 0
   workSpeed: 0
-  attackDelay: 0.3
+  attackDelay: 1.5
   attackDelayA: 0
   attackDelayB: 0
   anim: {fileID: 1816205983}
@@ -24098,11 +24098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 8
+  StateRadius: 10
   waypoints: []
-  traceDist: 8
+  traceDist: 10
   attackDist: 2
 --- !u!195 &1844878599
 NavMeshAgent:
@@ -24269,9 +24269,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -24538,9 +24538,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -25909,11 +25909,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1816205982}
-  dist: 5
+  dist: 4
   xSpeed: 220
   ySpeed: 100
-  yMinLimit: -10
-  yMaxLimit: 70
+  yMinLimit: 0
+  yMaxLimit: 60
 --- !u!81 &2053895188
 AudioListener:
   m_ObjectHideFlags: 0
@@ -26872,9 +26872,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  wanderSpeed: 1
+  wanderSpeed: 0.2
   chaseSpeed: 3
-  StateRadius: 7
+  StateRadius: 10
   waypoints: []
   traceDist: 10
   attackDist: 2
@@ -26949,12 +26949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07d834e3e3ac8943abad12c11a2722d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPool:
-  - poolItemName: Bullet
-    prefab: {fileID: 4200763201724757159, guid: d254b45ee57f62b4c8cbbc04ac3bb96f,
-      type: 3}
-    poolCount: 20
-    poolList: []
+  objectPool: []
 --- !u!4 &2137808039
 Transform:
   m_ObjectHideFlags: 0
