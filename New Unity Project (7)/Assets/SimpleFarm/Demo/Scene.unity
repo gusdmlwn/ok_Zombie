@@ -26949,7 +26949,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07d834e3e3ac8943abad12c11a2722d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPool: []
+  objectPool:
+  - poolItemName: Bullet
+    prefab: {fileID: 4200763201724757159, guid: d254b45ee57f62b4c8cbbc04ac3bb96f,
+      type: 3}
+    poolCount: 0
+    poolList: []
 --- !u!4 &2137808039
 Transform:
   m_ObjectHideFlags: 0
