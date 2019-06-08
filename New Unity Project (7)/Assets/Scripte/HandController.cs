@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HandController : MonoBehaviour
 {
-    //현재 hand 무기
+    //현재 장착된 Hand 무기
     [SerializeField]
     private Hand currentHand;
 
@@ -12,10 +12,7 @@ public class HandController : MonoBehaviour
     private bool isAttack = false;
     private bool isSwing = false;
 
-    private RaycastHit hitInfo;
-
-    public string bulletName = "Bullet";
-    public Transform spwaner;
+    private RaycastHit hitInfo; //레이져에 닿은 물체의 정보를 얻어올 수 있음
 
     // Update is called once per frame
     void Update()
@@ -23,51 +20,49 @@ public class HandController : MonoBehaviour
         TryAttack();
     }
 
-    //마우스 왼쪽 클릭
+    //마우스 좌클릭 시 코루틴 실행
     private void TryAttack()
     {
-        if(Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire1"))  //Fire1 = 마우스 좌클릭
         {
-            if(!isAttack)
+            if (!isAttack)
             {
-               StartCoroutine(AttackCoroutine());
-            }           
+                StartCoroutine(AttackCorolutine());
+            }
         }
     }
 
-    IEnumerator AttackCoroutine()
+    IEnumerator AttackCorolutine()
     {
-        isAttack = true;
-        currentHand.anim.SetTrigger("Attack");
-        
-        GameObject bullet = ObjectPool.Instance.PopFromPool(bulletName);
-        bullet.transform.position = spwaner.transform.position;
-        bullet.transform.rotation = spwaner.transform.rotation;
-        bullet.SetActive(true);
+        isAttack = true;                        //중복 실행 방지
+        currentHand.anim.SetTrigger("Attack");  //공격 애니메이션 실행
 
+        //딜레이
         yield return new WaitForSeconds(currentHand.attackDelayA);
         isSwing = true;
+        //공격시 충돌 체크
+        StartCoroutine(HitCorolutine());
 
-        StartCoroutine(HitCoroutine());
-
+        //공격 활성화 시점
         yield return new WaitForSeconds(currentHand.attackDelayB);
         isSwing = false;
 
         yield return new WaitForSeconds(currentHand.attackDelay - currentHand.attackDelayA - currentHand.attackDelayB);
-
         isAttack = false;
     }
 
-    IEnumerator HitCoroutine()
+    //공격 충돌 체크
+    IEnumerator HitCorolutine()
     {
-        while(isSwing)
+        while (isSwing)
         {
-            if(CheckObject())
+            //공격시 물체와 충돌 했을 경우
+            if (CheckObject())
             {
                 isSwing = false;
                 Debug.Log(hitInfo.transform.name);
             }
-            yield return null;          
+            yield return null;
         }
     }
 
