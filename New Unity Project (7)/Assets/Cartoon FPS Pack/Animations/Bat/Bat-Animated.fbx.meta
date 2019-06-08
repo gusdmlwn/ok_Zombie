@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 218b09e32269224459ab03414ac16e03
+timeCreated: 1526566544
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bat
+    100004: Bat 1
+    100006: //RootNode
+    100008: Bat_end
+    100010: Bone.051
+    100012: Camera
+    100014: l.forearm
+    100016: l.forearm_end
+    100018: l.hand
+    100020: l.index
+    100022: l.index001
+    100024: l.index002
+    100026: l.index003
+    100028: l.index003_end
+    100030: l.middle
+    100032: l.middle001
+    100034: l.middle002
+    100036: l.middle003
+    100038: l.middle003_end
+    100040: l.pinky
+    100042: l.pinky001
+    100044: l.pinky002
+    100046: l.pinky003
+    100048: l.pinky003_end
+    100050: l.ring
+    100052: l.ring001
+    100054: l.ring002
+    100056: l.ring003
+    100058: l.ring003_end
+    100060: l.thumb001
+    100062: l.thumb002
+    100064: l.thumb003
+    100066: l.thumb003_end
+    100068: l.upperArm
+    100070: Left
+    100072: r.forearm
+    100074: r.forearm_end
+    100076: r.hand
+    100078: r.index
+    100080: r.index001
+    100082: r.index002
+    100084: r.index003
+    100086: r.index003_end
+    100088: r.middle
+    100090: r.middle001
+    100092: r.middle002
+    100094: r.middle003
+    100096: r.middle003_end
+    100098: r.pinky
+    100100: r.pinky001
+    100102: r.pinky002
+    100104: r.pinky003
+    100106: r.pinky003_end
+    100108: r.ring
+    100110: r.ring001
+    100112: r.ring002
+    100114: r.ring003
+    100116: r.ring003_end
+    100118: r.thumb
+    100120: r.thumb001
+    100122: r.thumb002
+    100124: r.thumb003
+    100126: r.thumb003_end
+    100128: r.upperArm
+    100130: Right
+    400000: Armature
+    400002: Bat
+    400004: Bat 1
+    400006: //RootNode
+    400008: Bat_end
+    400010: Bone.051
+    400012: Camera
+    400014: l.forearm
+    400016: l.forearm_end
+    400018: l.hand
+    400020: l.index
+    400022: l.index001
+    400024: l.index002
+    400026: l.index003
+    400028: l.index003_end
+    400030: l.middle
+    400032: l.middle001
+    400034: l.middle002
+    400036: l.middle003
+    400038: l.middle003_end
+    400040: l.pinky
+    400042: l.pinky001
+    400044: l.pinky002
+    400046: l.pinky003
+    400048: l.pinky003_end
+    400050: l.ring
+    400052: l.ring001
+    400054: l.ring002
+    400056: l.ring003
+    400058: l.ring003_end
+    400060: l.thumb001
+    400062: l.thumb002
+    400064: l.thumb003
+    400066: l.thumb003_end
+    400068: l.upperArm
+    400070: Left
+    400072: r.forearm
+    400074: r.forearm_end
+    400076: r.hand
+    400078: r.index
+    400080: r.index001
+    400082: r.index002
+    400084: r.index003
+    400086: r.index003_end
+    400088: r.middle
+    400090: r.middle001
+    400092: r.middle002
+    400094: r.middle003
+    400096: r.middle003_end
+    400098: r.pinky
+    400100: r.pinky001
+    400102: r.pinky002
+    400104: r.pinky003
+    400106: r.pinky003_end
+    400108: r.ring
+    400110: r.ring001
+    400112: r.ring002
+    400114: r.ring003
+    400116: r.ring003_end
+    400118: r.thumb
+    400120: r.thumb001
+    400122: r.thumb002
+    400124: r.thumb003
+    400126: r.thumb003_end
+    400128: r.upperArm
+    400130: Right
+    4300000: Bat
+    4300002: Right
+    4300004: Left
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Bat-hit
+    7400004: Armature|Bat-idle
+    7400006: Armature|Left|Take 001|BaseLayer
+    7400008: Armature|Right|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: Bat
+    13700002: Left
+    13700004: Right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
