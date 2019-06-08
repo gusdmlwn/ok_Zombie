@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: e7d73758fbf83584d85f2e818a73e98c
+timeCreated: 1526641317
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bolt
+    100004: bolt_end
+    100006: Bone.051
+    100008: Bren
+    100010: //RootNode
+    100012: l.forearm
+    100014: l.forearm_end
+    100016: l.hand
+    100018: l.index
+    100020: l.index001
+    100022: l.index002
+    100024: l.index003
+    100026: l.index003_end
+    100028: l.middle
+    100030: l.middle001
+    100032: l.middle002
+    100034: l.middle003
+    100036: l.middle003_end
+    100038: l.pinky
+    100040: l.pinky001
+    100042: l.pinky002
+    100044: l.pinky003
+    100046: l.pinky003_end
+    100048: l.ring
+    100050: l.ring001
+    100052: l.ring002
+    100054: l.ring003
+    100056: l.ring003_end
+    100058: l.thumb001
+    100060: l.thumb002
+    100062: l.thumb003
+    100064: l.thumb003_end
+    100066: l.upperArm
+    100068: Left
+    100070: mag
+    100072: mag_end
+    100074: pin
+    100076: pin_end
+    100078: r.forearm
+    100080: r.forearm_end
+    100082: r.hand
+    100084: r.index
+    100086: r.index001
+    100088: r.index002
+    100090: r.index003
+    100092: r.index003_end
+    100094: r.middle
+    100096: r.middle001
+    100098: r.middle002
+    100100: r.middle003
+    100102: r.middle003_end
+    100104: r.pinky
+    100106: r.pinky001
+    100108: r.pinky002
+    100110: r.pinky003
+    100112: r.pinky003_end
+    100114: r.ring
+    100116: r.ring001
+    100118: r.ring002
+    100120: r.ring003
+    100122: r.ring003_end
+    100124: r.thumb
+    100126: r.thumb001
+    100128: r.thumb002
+    100130: r.thumb003
+    100132: r.thumb003_end
+    100134: r.upperArm
+    100136: Right
+    100138: weapon
+    100140: weapon_end
+    400000: Armature
+    400002: bolt
+    400004: bolt_end
+    400006: Bone.051
+    400008: Bren
+    400010: //RootNode
+    400012: l.forearm
+    400014: l.forearm_end
+    400016: l.hand
+    400018: l.index
+    400020: l.index001
+    400022: l.index002
+    400024: l.index003
+    400026: l.index003_end
+    400028: l.middle
+    400030: l.middle001
+    400032: l.middle002
+    400034: l.middle003
+    400036: l.middle003_end
+    400038: l.pinky
+    400040: l.pinky001
+    400042: l.pinky002
+    400044: l.pinky003
+    400046: l.pinky003_end
+    400048: l.ring
+    400050: l.ring001
+    400052: l.ring002
+    400054: l.ring003
+    400056: l.ring003_end
+    400058: l.thumb001
+    400060: l.thumb002
+    400062: l.thumb003
+    400064: l.thumb003_end
+    400066: l.upperArm
+    400068: Left
+    400070: mag
+    400072: mag_end
+    400074: pin
+    400076: pin_end
+    400078: r.forearm
+    400080: r.forearm_end
+    400082: r.hand
+    400084: r.index
+    400086: r.index001
+    400088: r.index002
+    400090: r.index003
+    400092: r.index003_end
+    400094: r.middle
+    400096: r.middle001
+    400098: r.middle002
+    400100: r.middle003
+    400102: r.middle003_end
+    400104: r.pinky
+    400106: r.pinky001
+    400108: r.pinky002
+    400110: r.pinky003
+    400112: r.pinky003_end
+    400114: r.ring
+    400116: r.ring001
+    400118: r.ring002
+    400120: r.ring003
+    400122: r.ring003_end
+    400124: r.thumb
+    400126: r.thumb001
+    400128: r.thumb002
+    400130: r.thumb003
+    400132: r.thumb003_end
+    400134: r.upperArm
+    400136: Right
+    400138: weapon
+    400140: weapon_end
+    4300000: Bren
+    4300002: Right
+    4300004: Left
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Bren-Reload-Empty
+    7400004: Armature|Bren|Take 001|BaseLayer
+    7400006: Armature|clip_Bren|Take 001|BaseLayer
+    7400008: Armature|shutter_bren|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: Bren
+    13700002: Left
+    13700004: Right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
