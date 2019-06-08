@@ -51,16 +51,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Camera theCamera;
     private Rigidbody myRigid;
-    //private GunController theGunController;
+   
     //private Crosshair theCrosshair;
 
     // Start is called before the first frame update
     void Start()
     {
-        //컴퍼넌트 초기화
-        myRigid = GetComponent<Rigidbody>();
-        capsuleCollider = GetComponent<CapsuleCollider>();
-       // theGunController = FindObjectOfType<GunController>();
+       //컴퍼넌트 초기화
+       myRigid = GetComponent<Rigidbody>();
+       capsuleCollider = GetComponent<CapsuleCollider>();
+
        // theCrosshair = FindObjectOfType<Crosshair>();
 
         //변수 초기화
@@ -181,10 +181,10 @@ public class PlayerController : MonoBehaviour
         if (isCrouch)
             Crouch();
 
-      //  theGunController.CancelFineSight();
+        //theGunController.CancelFineSight();
 
         isRun = true;
-       // theCrosshair.RunningAnimation(isRun);
+       //theCrosshair.RunningAnimation(isRun);
         applySpeed = runSpeed;
 
     }
@@ -193,7 +193,7 @@ public class PlayerController : MonoBehaviour
     private void RunningCancel()
     {
         isRun = false;
-       // theCrosshair.RunningAnimation(isRun);
+        //theCrosshair.RunningAnimation(isRun);
         applySpeed = walkSpeed;
     }
 
