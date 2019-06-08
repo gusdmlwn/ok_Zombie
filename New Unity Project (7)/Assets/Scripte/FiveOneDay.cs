@@ -113,12 +113,12 @@ public class FiveOneDay : MonoBehaviour
     }
     void DayCounter()
     {
-        Debug.Log("DayCounter");
+       // Debug.Log("DayCounter");
         days++;
     }
     void Dawn()//새벽일때 태양의 강도와 주변의밝기
     {
-        Debug.Log("Dawn");
+      //  Debug.Log("Dawn");
         if (GetComponent<Light>().intensity < dawnsunIntensity) 
             GetComponent<Light>().intensity += sunDimTume * Time.deltaTime; 
 
@@ -138,7 +138,7 @@ public class FiveOneDay : MonoBehaviour
     }
     void Day()//하루가 시작할때 태양의 강도와 주변밝기
     {
-        Debug.Log("Day");
+       // Debug.Log("Day");
         if (GetComponent<Light>().intensity < daysunIntensity)
             GetComponent<Light>().intensity += sunDimTume * Time.deltaTime; 
 
@@ -158,7 +158,7 @@ public class FiveOneDay : MonoBehaviour
     }
     void Dusk()//져녁일때 주변밝기 태양강도
     {
-        Debug.Log("Dusk");
+       // Debug.Log("Dusk");
         if (GetComponent<Light>().intensity > dusksunIntensity) 
             GetComponent<Light>().intensity -= sunDimTume * Time.deltaTime; 
 
@@ -178,7 +178,7 @@ public class FiveOneDay : MonoBehaviour
     }
     void Night()//밤일때 주변밝기와 태양강도
     {
-        Debug.Log("Night");
+       // Debug.Log("Night");
         if (GetComponent<Light>().intensity > nightsunIntensity) 
             GetComponent<Light>().intensity -= sunDimTume * Time.deltaTime; 
 
@@ -209,7 +209,7 @@ public class FiveOneDay : MonoBehaviour
     }
     private void UpdateSkyBox() //스카이박스 변화함수
     {
-        Debug.Log("UpdateSkyBox");
+       // Debug.Log("UpdateSkyBox");
         if (fiveDayPhases == FiveDayPhases.Dawn)
         {
             if (skyboxBlendfactor == dawnSkyboxBlendfactor)
