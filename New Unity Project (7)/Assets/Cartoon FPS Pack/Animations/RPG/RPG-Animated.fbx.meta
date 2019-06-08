@@ -1,0 +1,1866 @@
+fileFormatVersion: 2
+guid: fd55cc39dfd09d843b7090350afb6b4e
+timeCreated: 1526570293
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone.051
+    100004: l.forearm
+    100006: l.forearm_end
+    100008: l.hand
+    100010: l.index
+    100012: l.index001
+    100014: l.index002
+    100016: l.index003
+    100018: l.index003_end
+    100020: l.middle
+    100022: l.middle001
+    100024: l.middle002
+    100026: l.middle003
+    100028: l.middle003_end
+    100030: l.pinky
+    100032: l.pinky001
+    100034: l.pinky002
+    100036: l.pinky003
+    100038: l.pinky003_end
+    100040: l.ring
+    100042: l.ring001
+    100044: l.ring002
+    100046: l.ring003
+    100048: l.ring003_end
+    100050: l.thumb001
+    100052: l.thumb002
+    100054: l.thumb003
+    100056: l.thumb003_end
+    100058: l.upperArm
+    100060: Left
+    100062: r.forearm
+    100064: r.forearm_end
+    100066: r.hand
+    100068: r.index
+    100070: r.index001
+    100072: r.index002
+    100074: r.index003
+    100076: r.index003_end
+    100078: r.middle
+    100080: r.middle001
+    100082: r.middle002
+    100084: r.middle003
+    100086: r.middle003_end
+    100088: r.pinky
+    100090: r.pinky001
+    100092: r.pinky002
+    100094: r.pinky003
+    100096: r.pinky003_end
+    100098: r.ring
+    100100: r.ring001
+    100102: r.ring002
+    100104: r.ring003
+    100106: r.ring003_end
+    100108: r.thumb
+    100110: r.thumb001
+    100112: r.thumb002
+    100114: r.thumb003
+    100116: r.thumb003_end
+    100118: r.upperArm
+    100120: Right
+    100122: Rocket
+    100124: rocket
+    100126: rocket_end
+    100128: RPG
+    100130: //RootNode
+    100132: weapon
+    100134: weapon_end
+    400000: Armature
+    400002: Bone.051
+    400004: l.forearm
+    400006: l.forearm_end
+    400008: l.hand
+    400010: l.index
+    400012: l.index001
+    400014: l.index002
+    400016: l.index003
+    400018: l.index003_end
+    400020: l.middle
+    400022: l.middle001
+    400024: l.middle002
+    400026: l.middle003
+    400028: l.middle003_end
+    400030: l.pinky
+    400032: l.pinky001
+    400034: l.pinky002
+    400036: l.pinky003
+    400038: l.pinky003_end
+    400040: l.ring
+    400042: l.ring001
+    400044: l.ring002
+    400046: l.ring003
+    400048: l.ring003_end
+    400050: l.thumb001
+    400052: l.thumb002
+    400054: l.thumb003
+    400056: l.thumb003_end
+    400058: l.upperArm
+    400060: Left
+    400062: r.forearm
+    400064: r.forearm_end
+    400066: r.hand
+    400068: r.index
+    400070: r.index001
+    400072: r.index002
+    400074: r.index003
+    400076: r.index003_end
+    400078: r.middle
+    400080: r.middle001
+    400082: r.middle002
+    400084: r.middle003
+    400086: r.middle003_end
+    400088: r.pinky
+    400090: r.pinky001
+    400092: r.pinky002
+    400094: r.pinky003
+    400096: r.pinky003_end
+    400098: r.ring
+    400100: r.ring001
+    400102: r.ring002
+    400104: r.ring003
+    400106: r.ring003_end
+    400108: r.thumb
+    400110: r.thumb001
+    400112: r.thumb002
+    400114: r.thumb003
+    400116: r.thumb003_end
+    400118: r.upperArm
+    400120: Right
+    400122: Rocket
+    400124: rocket
+    400126: rocket_end
+    400128: RPG
+    400130: //RootNode
+    400132: weapon
+    400134: weapon_end
+    4300000: RPG
+    4300002: Rocket
+    4300004: Right
+    4300006: Left
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Left|Take 001|BaseLayer
+    7400004: Armature|Right|Take 001|BaseLayer
+    7400006: Armature|Rocket|Take 001|BaseLayer
+    7400008: Armature|RPG-Deploy
+    7400010: Armature|RPG-Draw
+    7400012: Armature|RPG-Fire
+    7400014: Armature|RPG-Idle
+    7400016: Armature|RPG-Reload
+    7400018: Armature|RPG|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: Left
+    13700002: Right
+    13700004: Rocket
+    13700006: RPG
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Left|Take 001|BaseLayer
+      takeName: Armature|Left|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Right|Take 001|BaseLayer
+      takeName: Armature|Right|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Rocket|Take 001|BaseLayer
+      takeName: Armature|Rocket|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG-Deploy
+      takeName: Armature|RPG-Deploy
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG-Draw
+      takeName: Armature|RPG-Draw
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG-Fire
+      takeName: Armature|RPG-Fire
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG-Idle
+      takeName: Armature|RPG-Idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG-Reload
+      takeName: Armature|RPG-Reload
+      firstFrame: 0
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RPG|Take 001|BaseLayer
+      takeName: Armature|RPG|Take 001|BaseLayer
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/l.hand
+        weight: 1
+      - path: Armature/l.hand/Bone.051
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003
+        weight: 1
+      - path: Armature/l.hand/Bone.051/l.thumb001/l.thumb002/l.thumb003/l.thumb003_end
+        weight: 1
+      - path: Armature/l.hand/l.index
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003
+        weight: 1
+      - path: Armature/l.hand/l.index/l.index001/l.index002/l.index003/l.index003_end
+        weight: 1
+      - path: Armature/l.hand/l.middle
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003
+        weight: 1
+      - path: Armature/l.hand/l.middle/l.middle001/l.middle002/l.middle003/l.middle003_end
+        weight: 1
+      - path: Armature/l.hand/l.pinky
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003
+        weight: 1
+      - path: Armature/l.hand/l.pinky/l.pinky001/l.pinky002/l.pinky003/l.pinky003_end
+        weight: 1
+      - path: Armature/l.hand/l.ring
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003
+        weight: 1
+      - path: Armature/l.hand/l.ring/l.ring001/l.ring002/l.ring003/l.ring003_end
+        weight: 1
+      - path: Armature/l.upperArm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm
+        weight: 1
+      - path: Armature/l.upperArm/l.forearm/l.forearm_end
+        weight: 1
+      - path: Armature/r.hand
+        weight: 1
+      - path: Armature/r.hand/r.index
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003
+        weight: 1
+      - path: Armature/r.hand/r.index/r.index001/r.index002/r.index003/r.index003_end
+        weight: 1
+      - path: Armature/r.hand/r.middle
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003
+        weight: 1
+      - path: Armature/r.hand/r.middle/r.middle001/r.middle002/r.middle003/r.middle003_end
+        weight: 1
+      - path: Armature/r.hand/r.pinky
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003
+        weight: 1
+      - path: Armature/r.hand/r.pinky/r.pinky001/r.pinky002/r.pinky003/r.pinky003_end
+        weight: 1
+      - path: Armature/r.hand/r.ring
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003
+        weight: 1
+      - path: Armature/r.hand/r.ring/r.ring001/r.ring002/r.ring003/r.ring003_end
+        weight: 1
+      - path: Armature/r.hand/r.thumb
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003
+        weight: 1
+      - path: Armature/r.hand/r.thumb/r.thumb001/r.thumb002/r.thumb003/r.thumb003_end
+        weight: 1
+      - path: Armature/r.upperArm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm
+        weight: 1
+      - path: Armature/r.upperArm/r.forearm/r.forearm_end
+        weight: 1
+      - path: Armature/rocket
+        weight: 1
+      - path: Armature/rocket/rocket_end
+        weight: 1
+      - path: Armature/weapon
+        weight: 1
+      - path: Armature/weapon/weapon_end
+        weight: 1
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: RPG
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.17
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
